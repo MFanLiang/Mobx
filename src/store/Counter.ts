@@ -18,17 +18,17 @@ class Counter {
     this.count++;
   }
 
-  // decrement() {
-  //   this.count--;
-  // }
+  decrement() {
+    this.count--;
+  }
 
-  // reset() {
-  //   this.count = 0;
-  // }
+  reset() {
+    this.count = 0;
+  }
 
-  // get double() {
-  //   return this.count * 2;
-  // }
+  get double() {
+    return this.count * 2;
+  }
 }
 
 const counter = new Counter();
