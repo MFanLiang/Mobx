@@ -13,6 +13,22 @@ class Counter {
   }
 
   count = 0;
+
+  increment() {
+    this.count++;
+  }
+
+  decrement() {
+    this.count--;
+  }
+
+  reset() {
+    this.count = 0;
+  }
+
+  get double() {
+    return this.count * 2;
+  }
 }
 
 const counter = new Counter();
