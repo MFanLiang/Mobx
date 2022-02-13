@@ -11,6 +11,7 @@ function App() {
       <button>increment</button>
       <button>decrement</button>
       <button>reset</button>
+      <button>add button</button>
     </>
   );
 }
